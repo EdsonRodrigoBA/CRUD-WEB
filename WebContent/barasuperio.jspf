@@ -1,0 +1,38 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+ <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap-theme.min.css" />
+ <script src="./bootstrap/js/bootstrap.min.js"></script>
+<body>
+
+<!-- CABECALHO BOOTSTRAP  -->
+
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+   <div class="container">
+      <div class="navbar-header">
+         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+     </div>
+     <div class="navbar-collapse collapse">
+        <div class="row" style="padding-top: 10px;">
+           <a href="home.jsp" class="btn btn-sm btn-success active navbar-right" role="button">cadastrar</a>
+           <a href="#" style="margin-right: 5px;" class="btn btn-sm btn-success active navbar-right offset" role="button">Cadastra Paciente</a>
+        </div>
+     </div>
+   </div>
+</div>
+
+
+
+ 
+</body>
+</html>
